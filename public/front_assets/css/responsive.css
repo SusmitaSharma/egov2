@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1200px) {
+    .section-three .staff-block {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .section-three .staff-block a {
+        margin: 0 auto 15px auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-wrapper, .chief-staff {
+        margin-bottom: 30px;
+    }
+
+    .header-top .title img, .side-image {
+        display: none;
+    }
+
+    .header-top .np-logo {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .galleryBlock {
+        width: 100%;
+    }
+}

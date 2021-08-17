@@ -1,0 +1,50 @@
+/*.modal {*/
+/*    text-align: center;*/
+/*}*/
+
+@media screen and (min-width: 768px) {
+    /*.modal:before {*/
+    /*    display: inline-block;*/
+    /*    vertical-align: middle;*/
+    /*    content: " ";*/
+    /*    height: 100%;*/
+    /*}*/
+}
+
+.modal-dialog {
+    /*display: inline-block;*/
+    /*text-align: left;*/
+    /*vertical-align: middle;*/
+
+    border-top: solid 7px #36b9cc;
+    border-radius: 5px;
+}
+
+.modal .modal-title {
+    font-size: 22px;
+}
+
+.modal .close {
+    font-size: 28px;
+}
+
+.bg-primary {
+    background: #36b9cc !important;
+}
+
+.box.box-primary {
+    border-top-color: #36b9cc !important;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #36b9cc !important;
+}
+
+.selected-tr {
+    background: lightgrey;
+}
+
+.about-desc p {
+ font-size: 20px;
+    line-height: 20px !important;
+}
